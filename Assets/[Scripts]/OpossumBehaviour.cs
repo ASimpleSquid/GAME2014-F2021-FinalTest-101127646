@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿///////////////////////////////
+/// OpossumBehaviour.cs
+/// Justin Dela Cruz
+/// 101127646
+/// Last Modified: 2021-12-17
+/// This .cs file gives an AI to the Opossom
+/// GAME2014 - Final
+//////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

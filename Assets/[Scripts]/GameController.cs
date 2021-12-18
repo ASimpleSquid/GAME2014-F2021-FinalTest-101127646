@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿///////////////////////////////
+/// GameController.cs
+/// Justin Dela Cruz
+/// 101127646
+/// Last Modified: 2021-12-17
+/// This .cs file helps the bullets and moving platforms know where to go
+/// GAME2014 - Final
+//////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;

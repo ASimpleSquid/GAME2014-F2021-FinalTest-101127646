@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿///////////////////////////////
+/// BulletFactory.cs
+/// Justin Dela Cruz
+/// 101127646
+/// Last Modified: 2021-12-17
+/// This .cs file helps The bullets be created
+/// GAME2014 - Final
+//////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

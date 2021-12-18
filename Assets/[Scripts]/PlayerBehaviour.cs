@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿///////////////////////////////
+/// PlayerBehaviour.cs
+/// Justin Dela Cruz
+/// 101127646
+/// Last Modified: 2021-12-17
+/// This .cs file helps with sounds, effects, and Lives for the player
+/// GAME2014 - Final
+//////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using Unity.Mathematics;
@@ -15,7 +24,8 @@ public enum ImpulseSounds
     HIT3,
     DIE,
     THROW,
-    GEM
+    GEM,
+    SHRINK
 }
 
 public class PlayerBehaviour : MonoBehaviour
@@ -267,6 +277,12 @@ public class PlayerBehaviour : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             HealDamage(10);
+        }
+
+        // Plays audio when touching platform while it shrinks
+        if (other.gameObject.CompareTag("Shrink"))
+        {
+            sounds[(int)ImpulseSounds.SHRINK].Play();
         }
     }
 

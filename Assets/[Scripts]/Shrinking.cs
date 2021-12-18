@@ -26,6 +26,7 @@ public class Shrinking : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            // To Constantly Shrink The Platform until is despawns
             Invoke("ShrinkPlatform", 0.2f);
             Invoke("ShrinkPlatform", 0.2f);
             Invoke("ShrinkPlatform", 0.2f);
